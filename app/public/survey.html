@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FriendFinder</title>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Chosen: inspect demo found below links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+</head>
+
+</head>
+
+<body>
+    <div class=row>
+
+        <div class=col-lg-2></div>
+
+        <div class=col-lg-8>
+            <h1>Survey Questions</h1>
+
+            <h3>About You</h3>
+            <form>
+                <div class="form-group">
+                    <label>Name (Required)</label>
+                    <input type="input" class="form-control" id="name">
+                </div>
+
+                <div class="form-group">
+                    <label>Link to Photo (Required)</label>
+                    <input type="input" class="form-control" id="photo">
+                </div>
+
+                <br>
+
+                <h3>Question 1</h3>
+                <div class="form-group">
+                    <label>I often find myself wishing you where home.</label>
+                    <select class="form-control" id="q1">
+                        <option value=''>Select a value </option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 2</h3>
+                <div class="form-group">
+                    <label>I often wish I could be exploreing the world.</label>
+                    <select class="form-control" id="q2">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 3</h3>
+                <div class="form-group">
+                    <label>Im more of a cat person.</label>
+                    <select class="form-control" id="q3">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 4</h3>
+                <div class="form-group">
+                    <label>Im more of a dog person.</label>
+                    <select class="form-control" id="q4">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 5</h3>
+                <div class="form-group">
+                    <label>After spending time in a large crowd I often feel that I need to socially recharge.</label>
+                    <select class="form-control" id="q5">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+                <h3>Question 6</h3>
+                <div class="form-group">
+                    <label>I enjoy being the center of attention.</label>
+                    <select class="form-control" id="q6">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+
+                <h3>Question 7</h3>
+                <div class="form-group">
+                    <label>I am tech-savy.</label>
+                    <select class="form-control" id="q7">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+
+                <h3>Question 8</h3>
+                <div class="form-group">
+                    <label>I often find myself shareing in peoples emotions.</label>
+                    <select class="form-control" id="q8">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+
+                <h3>Question 9</h3>
+                <div class="form-group">
+                    <label>"I dont need friends they disappoint me " *clap and pose*.</label>
+                    <select class="form-control" id="q9">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+
+
+                <h3>Question 10</h3>
+                <div class="form-group">
+                    <label>A persons political beleifs are not a reflection of their values.</label>
+                    <select class="form-control" id="q10">
+                        <option value=''>Select a value</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-dark" data-toggle='modal' data-target='#results-modal'
+                    id='add-btn'>Submit</button>
+            </form>
+
+        </div>
+
+        <div class=col-lg-2></div>
+
+    </div>
+    <!--   Rachel helped me with this -->
+    <div id="results-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h2 class="modal-title">
+                        <strong>Best Match</strong>
+                    </h2>
+                </div>
+                <div class="modal-body">
+                    <h2 class='text-center' id="match-name"></h2>
+                    <div class='text-center' id='img-here'></div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <script type='text/javascript'>
+            $("#add-btn").on("click", function (event) {
+                event.preventDefault();
+                function formCompleted() {
+                    var isComplete = true;
+                    $('.form-control').each(function () {
+                        if ($(this).val() === '') {
+                            isComplete = false;
+                        }
+                    });
+                    return isComplete;
+                    console.log(isComplete);
+                }
+                if (formCompleted()) {
+                    var NewFriendID = {
+                        name: $("#name").val(),
+                        photo: $("#photo").val(),
+                        scores: [
+                            $("#q1").val(),
+                            $("#q2").val(),
+                            $("#q3").val(),
+                            $("#q4").val(),
+                            $("#q5").val(),
+                            $("#q6").val(),
+                            $("#q7").val(),
+                            $("#q8").val(),
+                            $("#q9").val(),
+                            $("#q10").val()
+                        ]
+                    };
+                    $.post("/api/friends", NewFriendID, function (data) {
+                        $('#img-here').html("<img src='" + data.photo + "' height='250px'>")
+                        $('#match-name').text(data.name)
+                        console.log(data.name);
+                        console.log(data.photo);
+                    });
+                }
+                else {
+                    alert('Please fill out entire field')
+                }
+            });
+        </script>
+
+
+</body>
+
+</html>
