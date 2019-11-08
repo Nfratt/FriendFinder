@@ -1,1 +1,10 @@
-1:
+1:I often find myself wishing you where home.
+2:I often wish I could be exploreing the world.
+3:Im more of a cat person.
+4:Im more of a dog person.
+5:After spending time in a large crowd I often feel that I need to socially recharge
+6:I enjoy being the center of attention.
+7:A persons political beleifs are not a reflection of their values.
+8:I am tech-savy.
+9:I often find myself shareing in peoples emotions.
+10:"I dont need friends they disappoint me " *clap and pose*
